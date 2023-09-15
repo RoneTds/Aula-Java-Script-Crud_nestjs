@@ -13,6 +13,6 @@ export class Report {
     description: string;
 
     @Colum({ default: 'Em Analise'})
-    status: string: // pode ser "Em Analise", "Em Processo" ou "Concluido"
+    status: string // pode ser "Em Analise", "Em Processo" ou "Concluido"
 
 }
